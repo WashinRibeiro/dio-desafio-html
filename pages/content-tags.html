@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/html-5.png" type="image/x-icon" />
+    <title>Tags HTML</title>
+</head>
+
+<body>
+    <a href="../index.html"><strong> Retornar para página principal </strong></a>
+    <br /><br />
+    <hr />
+
+    <h1>A tags HTML de conteúdo</h1>
+
+    <p>
+        Agora que você já conhece as principais tags estruturais, pode organizar o
+        seu conteúdo de forma adequada. Assim sendo, vamos listar as principais
+        tags para incluir conteúdo à página, como títulos, parágrafos, imagens,
+        links, etc.
+    </p>
+
+    <hr />
+
+    <!-- Tags HTML de título -->
+    <section>
+        <h2>Tags HTML de título</h2>
+        <p>
+            As tags de título possuem valor semântico, variando entre seis níveis
+            hierárquicos. Para fins de otimização SEO é importante entender como
+            funcionam, e fazer uma utilização adequada. Para definir títulos,
+            utilizamos as tags:
+        </p>
+
+        <ul>
+            <li>&lt;h1&gt;&lt;/h1&gt; – Título de maior valor hierárquico</li>
+            <li>&lt;h2&gt;&lt;/h2&gt;</li>
+            <li>&lt;h3&gt;&lt;/h3&gt;</li>
+            <li>&lt;h4&gt;&lt;/h4&gt;</li>
+            <li>&lt;h5&gt;&lt;/h5&gt;</li>
+            <li>&lt;h6&gt;&lt;/h6&gt; – Título de menor valor hierárquico</li>
+            <br />
+        </ul>
+
+        <p>
+            Conforme dito anteriormente, a distribuição de título interferem no
+            otimização do SEO de uma página. Com isso, uma página contendo apenas h1
+            não seria bem vista pelos mecanismos de busca. Portanto, é importante
+            dividir os títulos deixando o h1 apenas para o título principal, h2 ou
+            h3 para títulos das seções e h4 a h6 para subtítulos ou títulos que
+            possuam baixo valor hierárquico em relação aos demais.
+        </p>
+    </section>
+
+    <hr />
+
+    <!-- Tags HTML de texto -->
+    <section>
+        <h2>Tags HTML de texto</h2>
+        <p>
+            As tags de texto definem textos, estilos de fonte, parágrafos, spans,
+            quebras de linhas, etc. Vamos conhecê-las:
+        </p>
+
+        <ul>
+            <li>
+                &lt;p&gt;&lt;/p&gt; – Principal tag de texto, compõe um parágrafo;
+            </li>
+            <li>
+                &lt;span&gt;&lt;/span&gt; - Apesar de ter uma funcionalidade e
+                características parecidas com os parágrafos, costumam ser utilizadas
+                apenas para pequenas informações, como legendas de um formulário,
+                legendas de uma imagem, etc. Também pode ser utilizada para formar um
+                container;
+            </li>
+            <li>
+                &lt;pre&gt;&lt;/pre&gt; - Tag utilizada para representar texto
+                pré-formatado. Muito utilizada para inserir códigos;
+            </li>
+            <li>
+                &lt;strong&gt;&lt;/strong&gt; - Transforma o conteúdo em negrito;
+            </li>
+            <li>
+                &lt;br/&gt; - Essa tag não necessita de fechamento, ela executa a
+                função de quebra de linha./li>
+            </li>
+            <li>
+                &lt;hr/&gt; – Essa tag não necessita de fechamento, ela forma uma
+                linha horizontal.
+            </li>
+            <br />
+        </ul>
+
+        <p>
+            Conforme dito anteriormente, a distribuição de título interferem no
+            otimização do SEO de uma página. Com isso, uma página contendo apenas h1
+            não seria bem vista pelos mecanismos de busca. Portanto, é importante
+            dividir os títulos deixando o h1 apenas para o título principal, h2 ou
+            h3 para títulos das seções e h4 a h6 para subtítulos ou títulos que
+            possuam baixo valor hierárquico em relação aos demais.
+        </p>
+    </section>
+
+    <hr />
+
+    <!-- Tag de link HTML -->
+    <section>
+        <h2>Tag de link HTML</h2>
+        <p>
+            A tag de link HTML é responsável que faz a ligação entre um documento e outro, sendo ele da mesma página ou
+            de uma página de outro domínio. Esse elemento garantiu que o HTML se destacasse, e moldou a internet da
+            forma que ela é hoje! Portanto, é o principal fundamento que forma a web.
+        </p>
+
+        <p>Para realizar um link, podemos chamar as tags &lt;a&gt;&lt;/a&gt; com o atributo href. Por exemplo, caso você
+            queira criar um link no seu texto que redirecione à página inicial do google: </p>
+        <pre>
+            &lt;p&gt; Para acessar o Google, &lt;a href="https://www.google.com"&gt; clique aqui.&lt;/a&gt;&lt;/p&gt;
+        </p>
+    </section>
+
+    <hr />
+
+    <!-- Tags HTML de multimídia -->
+    <section>
+        <h2>Tags HTML de multimídia</h2>
+        <p>
+            As tags de multimídia servem para incluir imagens, vídeos, áudios, iframes e outros tipos de conteúdo
+            multimídia.
+        </p>
+
+        <!-- imagens -->
+        <div>
+            <h3>&lt;img&gt;</h3>
+            <p>Essa tag não necessita de fechamento, serve para incluir uma imagem ao seu texto. A partir dessa tag,
+                utilizamos o atributo src="" onde deve ser digitado o local em que a imagem se encontra. Também é muito
+                utilizado em conjunto com o atributo alt para definir o texto alternativo da imagem.
+            </p>
+
+            <p>Por exemplo:</p>
+            <pre>
+                &lt;img src="imagens/imagem1.jpg" alt="imagem 1 da minha página"&gt;
+            </pre>
+        </div>
+
+        <!-- videos e audios -->
+        <div>
+            <h3>&lt;video&gt; e &lt;audio&gt;</h3>
+            <p>Essa tag serve para indicar a inserção de um vídeo. Com isso, devemos colocar alguns atributos dentro da
+                tag para poder ativar o controle, a principal dela é o controls. Posteriormente, incluímos a tag
+                &lt;source&gt; com os atributos <strong>src</strong> e <strong>type</strong>, onde receberão o local em
+                que está o vídeo e o tipo do vídeo. É
+                recomendado utilizar mais de um tipo de source do mesmo vídeo, para garantir maior possibilidade de
+                compatibilidade com o navegador. Finalmente, podemos incluir uma mensagem que será renderizada apenas se
+                o navegador do usuário não suportar a tag video.
+            </p>
+
+            <p>Diante disso, vejamos os exemplos a seguir: </p>
+
+            <pre>
+                    &lt;video controls&gt;
+                        &lt;source src="video.mp4" type="video/mp4"&gt;
+                        &lt;source src="video.ogg" type="video/ogg"&gt;
+                        Seu navegador não possui suporte para videos.
+                    &lt;/audio&gt;
+                </pre>
+
+            <p>A tag &lt;audio&gt; funciona da mesma forma que a tag &lt;video&gt;, portanto, utilizamos a tag
+                &lt;source&gt; dentro dela. Vejamos o exemplo a seguir:
+            </p>
+
+            <pre>
+                    &lt;audio controls&gt;
+                        &lt;source src="musica.ogg" type="audio/ogg"&gt;
+                        &lt;source src="musica.mp3" type="audio/mpeg"&gt;
+                        Seu navegador não possui suporte para áudio.
+                    &lt;/audio&gt;
+                </pre>
+        </div>
+
+        <!-- iframe -->
+        <div>
+            <h3>&lt;iframe&gt;</h3>
+            <p>Os iframes são muito utilizados na atualidade, servem para incluir recursos de uma outra página nesta
+                página. Vale a pena conferir o exemplo da W3C Schools, pagina de tutorias pertencente ao grupo W3C, a
+                organização atualmente responsável pelos padrões da web.
+            </p>
+
+            <p>Portanto, para inserir um iframe, basta utilizar a tag com o atributo src. Além disso, é possível incluir
+                um texto dentro do elemento, caso o navegador do usuário não possua suporte para tal. Vejamos então o
+                exemplo abaixo:
+            </p>
+
+            <pre>
+                &lt;iframe src="https://www.homehost.com.br"&gt;
+                    &lt;p&gt;Seu navegador não possui suporte para iFrames.&lt;/p&gt;
+                &lt;/iframe&gt;</pre>
+        </div>
+    </section>
+
+    <!-- Tags HTML de listas -->
+    <section>
+        <h2>Tags HTML de listas</h2>
+        <p>
+            Para poder criar uma lista, podemos utilizar uma lista ordenada, a partir das tags
+            &lt;ol&gt;&lt;/ol&gt;, ou uma lista não ordenada, a partir das tags &lt;ul&gt;&lt;/ul&gt;. Posteriormente,
+            incluímos dentro
+            da lista os elementos da mesma, dentro das tags &lt;li&gt;&lt;/li&gt;.
+        </p>
+
+        <p>Vejamos os exemplos a seguir:</p>
+        <pre>
+            &lt;p&lt;Minha lista ordenada:&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;item 1&lt;/li&gt;
+                &lt;li&gt;item 2&lt;/li&gt;
+                 &lt;li&gt;item 3&lt;/li&gt;
+            &lt;/ol&gt;
+            
+            &lt;p&gt;Minha lista não ordenada:&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;item 1&lt;/li&gt;
+                &lt;li&gt;item 2&lt;/li&gt;
+                &lt;li&gt;item 3&lt;/li&gt;
+            &lt;/ul&gt;
+            </pre>
+        </div>
+    </section>
+
+    <!-- Tags HTML de formulário -->
+    <section>
+        <h2>Tags HTML de formulário</h2>
+        <p>
+            As tags de formulário são muito utilizadas para obter informações do usuário, realizar cadastros, receber
+            opiniões, entre outros. São importantíssimas para qualquer ramo do mercado.
+        </p>
+
+        <p>Para iniciar um formulário, incluimos as tags
+            &lt;form&gt; e &lt;/form&gt;. Posteriormente, devemos incluir o conteúdo do formulário. Digamos que, por
+            exemplo, você
+            queira incluir três campos, sendo dois para coletar informações e um para receber uma mensagem. Desta forma,
+            para criar os campos de preenchimento, deverá utilizar a tag &lt;input&gt;, enquanto para o campo referente
+            à
+            mensagem, deverá utilizar a tag &lt;textarea&gt;.
+        </p>
+
+        <!-- input -->
+        <div>
+            <h3>&lt;input&gt;</h3>
+            <p>A tag &lt;input&gt; possui o atributo <strong>type</strong>, que varia entre diversos tipos (vamos
+                explicar
+                os principais deles
+                abaixo). Também há o atributo <strong>placeholder</strong>, que é um texto que ficará disponível
+                enquanto
+                nada for digitado
+                nesse campo. Também é importante definir um atributo <strong>name</strong> para cada input.
+            </p>
+
+            <ul>
+                <li>&lt;input type=”text”&gt; – Define um campo que receberá qualquer caractere;</li>
+                <li>&lt;input type=”email”&gt; – Define um campo que receberá caracteres e verificará se o mesmo
+                    consiste em
+                    um
+                    e-mail válido;</li>
+                <li>&lt;input type=”submit” value=”ENVIAR”&gt; – Define um botão que servirá para o envio do formulário.
+                    Dentro
+                    dele, podemos atribuir o value, que será o texto dentro do botão de envio.
+                </li>
+
+                <p>Existem outros tipos de <inputs> que podem ser estudados na <a
+                            href="https://www.w3schools.com/tags/tag_input.asp">documentação disponível pela W3C</a>.
+                </p>
+            </ul>
+        </div>
+
+        <!-- textarea -->
+        <div>
+            <h3>&lt;textarea&gt;</h3>
+            <p>Assim como a tag &lt;input&gt;, essa tag define um campo para o formulário. Porém, diferentemente, ela tem como
+                principal característica ser uma área de preenchimento de texto, ou seja, permite que o usuário escreva
+                um texto ou uma mensagem no seu interior. Também traz opções para que o usuário redimensione seu tamanho
+                (resize). Dessa forma, podemos incluir uma area de texto utilizando as tags &lt;textarea&gt; e &lt;/textarea&gt;.
+            </p>
+        </div>
+    </section>
+
+    <hr />
+    <a href="./style-tags-and-scripts.html"><strong>Avançar para "Tags de estilo de scripts"</strong>
+    </a>
+</body>
+
+</html>
